@@ -3,3 +3,24 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  background-color: red;
+}
+h2 {
+  background-color: green;
+}
+
+h2 {
+  padding: 0.5em; /* Abstand vom Rand bis zum Text */
+  margin: 0; /* Margin auf 0px setzen */
+}
+.ex-content {
+  background-color: white;
+  padding: 2em;
+}
+
+img {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
